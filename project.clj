@@ -20,7 +20,7 @@
 
   :plugins [[lein-cljsbuild "1.1.4"]
             [lein-doo "0.1.7"]
-            [com.jakemccrary/lein-test-refresh "0.15.0"]]
+            [com.jakemccrary/lein-test-refresh "0.17.0"]]
 
   :test-paths ["spec"]
   :test-refresh {:report untangled-spec.reporters.terminal/untangled-report
